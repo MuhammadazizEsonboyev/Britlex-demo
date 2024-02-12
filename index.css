@@ -45,7 +45,7 @@ body {
     border: 2px solid transparent;
 }
 
-.list_item a:hover{
+.list_item a:hover {
     border-bottom: 2px solid rgba(38, 50, 56, 1);
     transition: .6s;
 }
@@ -129,4 +129,83 @@ body {
 .header_image {
     width: 100%;
     padding-top: 20px;
+}
+
+/* MAIN CSS */
+
+
+main {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_left {
+    width: 335px;
+}
+
+.main_long_card {
+    padding: 30px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+}
+
+.main_right {
+    border: 6px solid green;
+    width: 770px;
+}
+
+.main_top_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-com {
+    width: 260px;
+}
+.image-child{
+    text-align: center;
+}
+
+
+.child_card {
+    padding: 20px;
+    background: rgba(245, 245, 245, 1);
+}
+
+.main_bottom_cards {
+    border: 6px solid indigo;    
+}
+
+.speaking {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.card-comp-text{
+    color: background: rgba(38, 50, 56, 1)   ;
+}
+
+
+.text-main {
+    font-size: 16px;
+    color: rgba(143, 149, 165, 1);
+    padding-bottom: 20px;
+}
+
+.btn_main {
+    font-size: 18px;
+    background: rgba(38, 50, 56, 1);
+    border-radius: 5px;
+    color: #ffff;
+    width: 200px;
+    height: 50px;
+    border: 2px solid transparent;
+}
+
+.btn_main:hover {
+    background: #ffff;
+    color: rgba(38, 50, 56, 1);
+    border: 2px solid rgba(38, 50, 56, 1);
+    cursor: pointer;
 }
